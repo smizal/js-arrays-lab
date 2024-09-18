@@ -277,14 +277,7 @@ Exercise 14: Accessing within nested arrays
 Complete Exercise 14 in the space below:
 */
 
-let num = 0
-for (let i = 0; i < numArrays.length - 1; i++) {
-  let indx = numArrays[i].indexOf(66)
-  if (indx >= 0) {
-    num = numArrays[i][indx]
-    break
-  }
-}
+let num = numArrays[2][1]
 
 console.log('Exercise 14 result:', num)
 
